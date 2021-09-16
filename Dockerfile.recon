@@ -15,6 +15,6 @@ FROM debian:latest AS base
 #    RUN cd ${WORKDIR} && git clone https://github.com/lamaries/theHarvester && cd theHarvester && pip3 install -r requirements/base.txt
 #    RUN cd ${WORKDIR} && git clone https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
     RUN cd ${WORKDIR} && git clone https://github.com/nmap/nmap.git && cd nmap && ./configure && make && make install
-    RUN cd ${WORKDIR] && git clone https://gitlab.com/illwill/skiptracer.git && cd skiptracer && pip install -r requirements.txt
+    RUN cd ${WORKDIR} && git clone https://gitlab.com/illwill/skiptracer.git && cd skiptracer && pip install -r requirements.txt
 
 
