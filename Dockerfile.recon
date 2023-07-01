@@ -1,7 +1,7 @@
 ARG VERSION=bullseye
 
 FROM debian:${VERSION} AS base
-    LABEL autor="Jasen"
+    LABEL autor="z00f"
     LABEL description="Red Team and Pentesting for Recon"
 
     ENV ROOT_DIR /redteam 
